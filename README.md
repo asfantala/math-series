@@ -1,4 +1,4 @@
-# LAB Math-series
+# LAB Class 02 - Modules and Testing
 ## Author: Tala asfan
 
 ## Setup
