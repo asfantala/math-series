@@ -2,13 +2,7 @@ import pytest
 from series import fibonacci
 from series import lucas
 from series import sum_series
-"""
-fibonacci
 
-n==0 = 0
-n==1 = 1
-
-"""
 
 def test_one():
  actual= fibonacci(0)
@@ -46,12 +40,6 @@ def test_seven():
   assert actual == excepted   
 
 
-  """
-  lucas
-    n == 0: 2
-    n == 1: 1
-  """
-
 def test_lucas0():
   actual= lucas(0)
   excepted = 2
@@ -78,9 +66,7 @@ def test_lucas4():
   assert actual == excepted 
 
 
-"""
-sum series
-"""  
+
 def test_sumseries0():
   actual= sum_series(0)
   excepted = 0
